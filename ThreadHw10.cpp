@@ -2,11 +2,14 @@
 //
 
 #include "ThreadHw10.h"
-#include "task1.cpp"
+#include <clocale>
+
+void task1();
 
 using namespace std;
 
 int main()
 {
+	setlocale(LC_ALL, "rus");
 	task1();
 }
