@@ -5,11 +5,12 @@
 #include <clocale>
 
 void task1();
+void task2();
 
 using namespace std;
 
 int main()
 {
 	setlocale(LC_ALL, "rus");
-	task1();
+	task2();
 }

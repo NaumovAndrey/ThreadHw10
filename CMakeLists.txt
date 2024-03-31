@@ -12,7 +12,7 @@ endif()
 project ("ThreadHw10")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (ThreadHw10 "ThreadHw10.cpp" "ThreadHw10.h" "task1.cpp")
+add_executable (ThreadHw10 "ThreadHw10.cpp" "ThreadHw10.h" "task1.cpp" "task2.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET ThreadHw10 PROPERTY CXX_STANDARD 20)
